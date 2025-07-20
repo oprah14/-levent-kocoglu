@@ -261,22 +261,34 @@ section{
 
 @keyframes words{
     0%,
-    25%{
+    20%{
         content: "Web Developer'ım";
     }
-    26%,
-    50%{
+    21%,
+    40%{
         content: "Front-end Developer'ım";
     }
-    51%,
-    75%{
+    41%,
+    60%{
         content: "back-end Developer'ım";
     }
-    76%,
-    100%{
+    61%,
+    80%{
         content: "Full Stack Developer'ım";
     }
-    
-
+    81%,
+    100%{
+        content: "Full Stack Developer'ım";   
+    }
 }
+@keyframes typing {
+    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95% {
+        width: 0;
+    }
+
+    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
+        width: calc(100% + 8px);
+    }
+}
+
 /* HOME E*/
