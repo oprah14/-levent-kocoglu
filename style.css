@@ -282,13 +282,68 @@ section{
     }
 }
 @keyframes typing {
-    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95% {
+    10%, 
+    15%, 
+    30%, 
+    35%, 
+    50%, 
+    55%, 
+    70%, 
+    75%, 
+    90%, 
+    95% {
         width: 0;
     }
 
-    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
+    5%, 
+    20%,
+    25%, 
+    40%, 
+    45%, 
+    60%, 
+    65%, 
+    80%, 
+    85% {
         width: calc(100% + 8px);
     }
 }
-
 /* HOME E*/
+
+/* EDUCATION S */
+
+.heading{
+    font-size: 8rem;
+    text-align: center;
+    margin: 5rem 0;
+}
+
+.education{
+    background-color: var(--second-bg-color);
+    padding: 100px 15px;
+}
+
+
+.timeline-items{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.timeline-items::before{
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    background-color: var(--main-color);
+    left: calc(50% - 1px);
+}
+
+.timeline-items{
+    margin-bottom: 40px;
+    width: 100%;
+    position: relative;
+}
+
+/* EDUCATION E */
