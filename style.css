@@ -761,7 +761,7 @@ input[type="number"]{
         color: #fff;
     }
 
-    .navbar .active{
+    .navbar.active{
         display: block;
     }
 
