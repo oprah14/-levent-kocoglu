@@ -260,23 +260,23 @@ section{
 @keyframes words{
     0%,
     20%{
-        content: "Web Developer'ım";
+        content: "Web Developer";
     }
     21%,
     40%{
-        content: "Front-end Developer'ım";
+        content: "Front-end Developer";
     }
     41%,
     60%{
-        content: "back-end Developer'ım";
+        content: "back-end Developer";
     }
     61%,
     80%{
-        content: "Full Stack Developer'ım";
+        content: "Full Stack Developer";
     }
     81%,
     100%{
-        content: "Full Stack Developer'ım";   
+        content: "Full Stack Developer";   
     }
 }
 @keyframes typing {
