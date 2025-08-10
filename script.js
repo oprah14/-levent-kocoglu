@@ -6,3 +6,7 @@ menuIcon.onclick = () => {
     navbar.classList.toggle("active");
     
 };
+
+function sendMail() {
+    
+}
