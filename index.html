@@ -337,7 +337,7 @@ boxicons.min.css"
         e.preventDefault();
         const formData = Object.fromEntries(new FormData(e.target).entries());
 
-    const res = await fetch("http://localhost:3000/send-email", {
+    const res = await fetch("https://oprah14.github.io/-levent-kocoglu:3000/send-email", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(formData)
