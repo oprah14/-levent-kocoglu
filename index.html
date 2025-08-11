@@ -274,7 +274,7 @@ boxicons.min.css"
 <section class="contact" id="contact">
   <h2 class="heading">Contact <span>Me</span></h2>
 
-  <form action="#">
+  <form action="https://formsubmit.co/leventkocoglu24@gmail.com" method="post">
     <div class="input-group">
       
       <div class="input-box">
@@ -290,7 +290,7 @@ boxicons.min.css"
     </div>
 
     <div class="input-group-2">
-      <textarea placeholder="Your message" cols="30" rows="10" name="message"></textarea>
+      <textarea placeholder="Your message" cols="30" rows="10" name="msg"></textarea>
       <button type="submit">Send Message</button>
     </div>
   </form>
@@ -332,20 +332,5 @@ boxicons.min.css"
 
 
     <script src="script.js"></script>
-    <script>
-      document.getElementById("contactForm").addEventListener("submit", async (e) => {
-        e.preventDefault();
-        const formData = Object.fromEntries(new FormData(e.target).entries());
-
-    const res = await fetch("https://oprah14.github.io/-levent-kocoglu:3000/send-email", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(formData)
-    });
-
-    const data = await res.json();
-    alert(data.message);
-  });
-</script>
 </body>
 </html>
