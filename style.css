@@ -564,6 +564,25 @@ section{
     background-color: var(--bg-color);
 }
 
+.button-style {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 15px;
+  background-color: #00e6e6; /* Turkuaz */
+  color: #000;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button-style:hover {
+  background-color: #f2f2f2; /* Açık gri */
+  border: 3px solid #00e6e6; /* Turkuaz çerçeve */
+  color: #000; /* Yazı rengi koyu */
+}
+
 .contact form{
     display: flex;
     justify-content: center;
